@@ -65,23 +65,6 @@ function checkSlot() {
 		document.getElementById('check1');
 		console.log("You Win!");
 		document.location.href = "http://google.com";
-		a.classList.add("opaque");
-		b.classList.add("opaque");
-		c.classList.add("opaque");
-		d.classList.add("opaque");
-		e.classList.add("opaque");
-		f.classList.add("opaque");
-		g.classList.add("opaque");
-		h.classList.add("opaque");
-		i.classList.add("opaque");
-		j.classList.add("opaque");
-		k.classList.add("opaque");
-		l.classList.add("opaque");
-		m.classList.add("opaque");
-		n.classList.add("opaque");
-		o.classList.add("opaque");
-		p.classList.add("opaque");
-		q.classList.add("opaque");
 	}else {
 	}
 }
