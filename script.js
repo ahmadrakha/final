@@ -60,11 +60,28 @@ function anagram1(el){
 	}
 }
 
-function jackpot(el) {
-	if (a.src.match("images/b.PNG") && b.src.match("images/o.png") ){
+function checkSlot() {
+	if (a.src.match("images/b.png") && b.src.match("images/o.png") && c.src.match("images/h.png") && d.src.match("images/e.png") && e.src.match("images/m.png") && f.src.match("images/i.png") && g.src.match("images/a.png") && h.src.match("images/n.png") && i.src.match("images/space.png") && j.src.match("images/r.png") && k.src.match("images/h.png")&& l.src.match("images/a.png") && m.src.match("images/p.png") && n.src.match("images/s.png") && o.src.match("images/o.png") && p.src.match("images/d.png") && q.src.match("images/y.png")){
+		document.getElementById('check1');
 		console.log("You Win!");
+		document.location.href = "http://google.com";
 		a.classList.add("opaque");
 		b.classList.add("opaque");
+		c.classList.add("opaque");
+		d.classList.add("opaque");
+		e.classList.add("opaque");
+		f.classList.add("opaque");
+		g.classList.add("opaque");
+		h.classList.add("opaque");
+		i.classList.add("opaque");
+		j.classList.add("opaque");
+		k.classList.add("opaque");
+		l.classList.add("opaque");
+		m.classList.add("opaque");
+		n.classList.add("opaque");
+		o.classList.add("opaque");
+		p.classList.add("opaque");
+		q.classList.add("opaque");
 	}else {
 	}
 }
